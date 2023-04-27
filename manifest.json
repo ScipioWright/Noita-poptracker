@@ -1,0 +1,25 @@
+﻿// this the manifest for you pack
+// it contains basic information about your pack
+// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
+{
+    "name": "Noita Tracker",
+    "game_name": "Noita",
+    "package_version": "1.0.0.0",
+    "package_uid": "template_pack",
+    "platform": "ap",
+    "author": "Scipio Wright",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}
