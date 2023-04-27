@@ -7,3 +7,5 @@ Includes examples for AP and SNES memory autotracking and beginner-friendly expl
 ## Installation
 
 Just download the lastest build or source and put in your packs folder (unpacked).
+
+Don't install this, it is not done or functional yet.
