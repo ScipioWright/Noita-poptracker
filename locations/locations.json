@@ -338,5 +338,39 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Shop Items",
+        "sections": [
+            {
+                "name": "Coal Pits Holy Mountain",
+                "sections": []
+            }
+        ]
+    },
+    {
+        "name": "Orbs and Bosses",
+        "sections": [
+            {
+                "name": "Toveri",
+                "map_locations": [
+                    {
+                    "map": "map1",
+                    "x": 400,
+                    "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Ylialkemisti",
+                "map_locations": [
+                    {
+                    "map": "map1",
+                    "x": 300,
+                    "y": 700
+                    }
+                ]
+            },
     }
+            
 ]
