@@ -306,7 +306,7 @@
                     }
                 ]
             },
-                        {
+            {
                 "name": "Snowy Depths Holy Mountain",
                 "sections": [
                     {
@@ -325,7 +325,7 @@
                     }
                 ]
             },
-                        {
+            {
                 "name": "Hiisi Base Holy Mountain",
                 "sections": [
                     {
@@ -344,7 +344,23 @@
                     }
                 ]
             },
-                        {
+            {
+                "name": "Secret Shop",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 4
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 834,
+                        "y": 342
+                    }
+                ]
+            },
+            {
                 "name": "Underground Jungle Holy Mountain",
                 "sections": [
                     {
@@ -363,7 +379,7 @@
                     }
                 ]
             },
-                        {
+            {
                 "name": "The Vault Holy Mountain",
                 "sections": [
                     {
@@ -382,7 +398,7 @@
                     }
                 ]
             },
-                        {
+            {
                 "name": "Temple of the Art Holy Mountain",
                 "sections": [
                     {
@@ -401,7 +417,7 @@
                     }
                 ]
             },
-                        {
+            {
                 "name": "The Laboratory Holy Mountain",
                 "sections": [
                     {
@@ -417,6 +433,241 @@
                         "map": "map1",
                         "x": 1111,
                         "y": 342
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orbs and Bosses",
+        "children": [
+            {
+                "name": "Kolmisilmä",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1434,
+                        "y": 144
+                    }
+                ]
+            },
+            {
+                "name": "Limatoukka",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Suomuhauki",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Kolmisilmän Koipi",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Sauvojen tuntija",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Syväolento",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Gate Guardian",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Unohdettu",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Toveri",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Mestarien mestari",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Ylialkemisti",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Kolmisilmän silmä",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Floating Island Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Sandcave Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Vault Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Abyss Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Lava Lake Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Magical Temple Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Lukki Lair Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Wizard's Den Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "Snow Chasm Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
+                    }
+                ]
+            },
+            {
+                "name": "The Work (Hell) Orb",
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1444,
+                        "y": 1444
                     }
                 ]
             }
