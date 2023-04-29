@@ -54,6 +54,8 @@
             }            
         ]
     },
+
+
     {
         "name": "Biome Checks",
         "children": [
@@ -334,6 +336,144 @@
                         "map": "map1",
                         "x": 1150,
                         "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shops",
+        "children": [
+            {
+                "name": "Coal Pits Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1534,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "Snowy Depths Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1234,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "Hiisi Base Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 834,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "Underground Jungle Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1124,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "The Vault Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1834,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "Temple of the Art Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1594,
+                        "y": 342
+                    }
+                ]
+            },
+                        {
+                "name": "The Laboratory Holy Mountain",
+                "sections": [
+                    {
+                        "name":  "Shop Items",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Spell Refresher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1111,
+                        "y": 342
                     }
                 ]
             }
