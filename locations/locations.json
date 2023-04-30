@@ -7,11 +7,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     }
                 ],
                 "map_locations": [
@@ -27,11 +29,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     }
                 ],
                 "map_locations": [
@@ -87,11 +91,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|2"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|2"]
                     }
                 ],
                 "map_locations": [
@@ -167,11 +173,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|2"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|2"]
                     }
                 ],
                 "map_locations": [
@@ -227,11 +235,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     }
                 ],
                 "map_locations": [
@@ -247,11 +257,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     }
                 ],
                 "map_locations": [
@@ -267,11 +279,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "visibility_rules": ["$on_path|3"]
                     }
                 ],
                 "map_locations": [
@@ -445,7 +459,8 @@
                 "name": "Kolmisilmä",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|1"]
                     }
                 ],
                 "map_locations": [
@@ -460,7 +475,8 @@
                 "name": "Limatoukka",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -475,7 +491,8 @@
                 "name": "Suomuhauki",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|1"]
                     }
                 ],
                 "map_locations": [
@@ -490,7 +507,8 @@
                 "name": "Kolmisilmän Koipi",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -505,7 +523,8 @@
                 "name": "Sauvojen tuntija",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|2"]
                     }
                 ],
                 "map_locations": [
@@ -520,7 +539,8 @@
                 "name": "Syväolento",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -535,7 +555,8 @@
                 "name": "Gate Guardian",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|1"]
                     }
                 ],
                 "map_locations": [
@@ -550,7 +571,8 @@
                 "name": "Unohdettu",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -565,7 +587,8 @@
                 "name": "Toveri",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -580,7 +603,8 @@
                 "name": "Mestarien mestari",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -595,7 +619,8 @@
                 "name": "Ylialkemisti",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|2"]
                     }
                 ],
                 "map_locations": [
@@ -610,7 +635,8 @@
                 "name": "Kolmisilmän silmä",
                 "sections": [
                     {
-                        "name": "Boss Defeated"
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -625,7 +651,8 @@
                 "name": "Floating Island Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|1"]
                     }
                 ],
                 "map_locations": [
@@ -640,7 +667,8 @@
                 "name": "Pyramid Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -655,7 +683,8 @@
                 "name": "Sandcave Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -670,7 +699,8 @@
                 "name": "Frozen Vault Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -685,7 +715,8 @@
                 "name": "Abyss Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|1"]
                     }
                 ],
                 "map_locations": [
@@ -700,7 +731,8 @@
                 "name": "Lava Lake Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|2"]
                     }
                 ],
                 "map_locations": [
@@ -715,7 +747,8 @@
                 "name": "Magical Temple Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|2"]
                     }
                 ],
                 "map_locations": [
@@ -730,7 +763,8 @@
                 "name": "Lukki Lair Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|2"]
                     }
                 ],
                 "map_locations": [
@@ -745,7 +779,8 @@
                 "name": "Wizard's Den Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -760,7 +795,8 @@
                 "name": "Snow Chasm Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [
@@ -775,7 +811,8 @@
                 "name": "The Work (Hell) Orb",
                 "sections": [
                     {
-                        "name": "Orb Collected"
+                        "name": "Orb Collected",
+                        "visibility_rules": ["$in_orb_set|3"]
                     }
                 ],
                 "map_locations": [

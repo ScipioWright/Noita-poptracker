@@ -23,9 +23,6 @@ ScriptHost:LoadScript("scripts/custom_items/class.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
--- Items
-Tracker:AddItems("items/items.json")
-
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.json")    
@@ -34,7 +31,6 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
