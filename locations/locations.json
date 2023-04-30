@@ -17,8 +17,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 4000,
+                        "y": 1312
                     }
                 ]
             },
@@ -37,8 +37,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 992,
+                        "y": 1120
                     }
                 ]
             },
@@ -57,8 +57,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2336,
+                        "y": 960
                     }
                 ]
             },
@@ -77,8 +77,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 1152
                     }
                 ]
             },
@@ -97,8 +97,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 1904,
+                        "y": 1152
                     }
                 ]
             },
@@ -117,8 +117,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 1376
                     }
                 ]
             },
@@ -137,8 +137,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 1600
                     }
                 ]
             },
@@ -157,8 +157,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 1760
                     }
                 ]
             },
@@ -177,8 +177,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 1728,
+                        "y": 1952
                     }
                 ]
             },
@@ -197,8 +197,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 2080
                     }
                 ]
             },
@@ -217,8 +217,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 2208,
+                        "y": 2368
                     }
                 ]
             },
@@ -237,8 +237,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1550,
-                        "y": 300
+                        "x": 3488,
+                        "y": 1760
                     }
                 ]
             },
@@ -257,8 +257,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 3552,
+                        "y": 2656
                     }
                 ]
             },
@@ -277,8 +277,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1150,
-                        "y": 300
+                        "x": 4000,
+                        "y": 2048
                     }
                 ]
             }
@@ -301,8 +301,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1534,
-                        "y": 342
+                        "x": 2208,
+                        "y": 1056
                     }
                 ]
             },
@@ -320,8 +320,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1234,
-                        "y": 342
+                        "x": 2208,
+                        "y": 1248
                     }
                 ]
             },
@@ -339,8 +339,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 834,
-                        "y": 342
+                        "x": 2208,
+                        "y": 1504
                     }
                 ]
             },
@@ -355,8 +355,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 834,
-                        "y": 342
+                        "x": 2464,
+                        "y": 1568
                     }
                 ]
             },
@@ -374,8 +374,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1124,
-                        "y": 342
+                        "x": 2208,
+                        "y": 1696
                     }
                 ]
             },
@@ -393,8 +393,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1834,
-                        "y": 342
+                        "x": 2208,
+                        "y": 1952
                     }
                 ]
             },
@@ -412,8 +412,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1594,
-                        "y": 342
+                        "x": 2208,
+                        "y": 2208
                     }
                 ]
             },
@@ -431,8 +431,8 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1111,
-                        "y": 342
+                        "x": 2528,
+                        "y": 2528
                     }
                 ]
             }
@@ -443,231 +443,346 @@
         "children": [
             {
                 "name": "Kolmisilmä",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1434,
-                        "y": 144
+                        "x": 2624,
+                        "y": 2528
                     }
                 ]
             },
             {
                 "name": "Limatoukka",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 4096,
+                        "y": 3008
                     }
                 ]
             },
             {
                 "name": "Suomuhauki",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2528,
+                        "y": 1824
                     }
                 ]
             },
             {
                 "name": "Kolmisilmän Koipi",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 3488,
+                        "y": 736
                     }
                 ]
             },
             {
                 "name": "Sauvojen tuntija",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2720,
+                        "y": 1024
                     }
                 ]
             },
             {
                 "name": "Syväolento",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 480,
+                        "y": 1984
                     }
                 ]
             },
             {
                 "name": "Gate Guardian",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2592,
+                        "y": 2336
                     }
                 ]
             },
             {
                 "name": "Unohdettu",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 800,
+                        "y": 2528
                     }
                 ]
             },
             {
                 "name": "Toveri",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2656,
+                        "y": 1632
                     }
                 ]
             },
             {
                 "name": "Mestarien mestari",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 3808,
+                        "y": 2784
                     }
                 ]
             },
             {
                 "name": "Ylialkemisti",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 1632,
+                        "y": 992
                     }
                 ]
             },
             {
                 "name": "Kolmisilmän silmä",
+                "sections": [
+                    {
+                        "name": "Boss Defeated"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 4000,
+                        "y": 2272
                     }
                 ]
             },
             {
                 "name": "Floating Island Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2336,
+                        "y": 736
                     }
                 ]
             },
             {
                 "name": "Pyramid Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 3488,
+                        "y": 672
                     }
                 ]
             },
             {
                 "name": "Sandcave Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 3488,
+                        "y": 1248
                     }
                 ]
             },
             {
                 "name": "Frozen Vault Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 992,
+                        "y": 1248
                     }
                 ]
             },
             {
                 "name": "Abyss Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2784,
+                        "y": 992
                     }
                 ]
             },
             {
                 "name": "Lava Lake Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2656,
+                        "y": 1184
                     }
                 ]
             },
             {
                 "name": "Magical Temple Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 1696,
+                        "y": 1376
                     }
                 ]
             },
             {
                 "name": "Lukki Lair Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 1760,
+                        "y": 2144
                     }
                 ]
             },
             {
                 "name": "Wizard's Den Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 3552,
+                        "y": 2912
                     }
                 ]
             },
             {
                 "name": "Snow Chasm Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 1120,
+                        "y": 2720
                     }
                 ]
             },
             {
                 "name": "The Work (Hell) Orb",
+                "sections": [
+                    {
+                        "name": "Orb Collected"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 1444,
-                        "y": 1444
+                        "x": 2208,
+                        "y": 2912
                     }
                 ]
             }
