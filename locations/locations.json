@@ -8,12 +8,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -30,12 +32,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -51,11 +55,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -71,11 +77,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -92,12 +100,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|2"]
+                        "visibility_rules": ["$on_path|2"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|2"]
+                        "visibility_rules": ["$on_path|2"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -113,11 +123,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -133,11 +145,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -153,11 +167,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -174,12 +190,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|2"]
+                        "visibility_rules": ["$on_path|2"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|2"]
+                        "visibility_rules": ["$on_path|2"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -195,11 +213,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -215,11 +235,13 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
-                        "item_count": 20
+                        "item_count": 20,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -236,12 +258,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -258,12 +282,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -280,12 +306,14 @@
                     {
                         "name": "Chests",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     },
                     {
                         "name": "Pedestals",
                         "item_count": 20,
-                        "visibility_rules": ["$on_path|3"]
+                        "visibility_rules": ["$on_path|3"],
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -306,7 +334,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -325,7 +354,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -344,7 +374,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -363,7 +394,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 4
+                        "item_count": 4,
+                        "clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -379,7 +411,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -398,7 +431,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -417,7 +451,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
@@ -436,7 +471,8 @@
                 "sections": [
                     {
                         "name":  "Shop Items",
-                        "item_count": 5
+                        "item_count": 5,
+                        "clear_as_group": false
                     },
                     {
                         "name": "Spell Refresher"
