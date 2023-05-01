@@ -1,5 +1,10 @@
 [
   {
+    "name": "Refresh",
+    "type": "toggle",
+    "codes": "Refresh"
+  },
+  {
     "name": "Path Option",
     "type": "consumable",
     "loop": "true",
