@@ -55,7 +55,6 @@
             "type": "dock",
             "dropshadow": true,
             "content": [
-
                 {
                     "type": "tabbed",
                     "tabs": [
