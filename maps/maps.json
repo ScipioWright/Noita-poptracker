@@ -4,5 +4,11 @@
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/biome_map.png"
+    },
+    {
+        "name": "map2",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/biome_map_full.png"
     }
 ]

@@ -7,35 +7,30 @@
   {
     "name": "Path Option",
     "type": "consumable",
-    "loop": "true",
     "img": "images/consumable.png",
     "codes": "PathOption"
   },
   {
     "name": "Orb Path",
     "type": "consumable",
-    "loop": "true",
     "img": "images/consumable.png",
     "codes": "OrbPath"
   },
   {
     "name": "Boss Path",
     "type": "consumable",
-    "loop": "true",
     "img": "images/consumable.png",
     "codes": "BossPath"
   },
   {
     "name": "Chest Count",
     "type": "consumable",
-    "loop": "true",
     "img": "images/consumable.png",
     "codes": "ChestCount"
   },
   {
     "name": "Pedestal Count",
     "type": "consumable",
-    "loop": "true",
     "img": "images/consumable.png",
     "codes": "PedestalCount"
   }

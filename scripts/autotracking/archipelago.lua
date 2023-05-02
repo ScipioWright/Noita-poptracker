@@ -10,9 +10,9 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-chosen_path = 1
-orb_path = 0
-boss_path = 0
+chosen_path = 3
+orb_path = 3
+boss_path = 3
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
