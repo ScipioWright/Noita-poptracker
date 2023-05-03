@@ -14,12 +14,6 @@
             "flags": [
                 "ap"
             ]
-        },
-        "var_itemsonly": {
-            "display_name": "Items Only",
-            "flags": [
-                "ap"
-            ]
         }
     }
 }
