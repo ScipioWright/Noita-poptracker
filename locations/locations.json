@@ -393,6 +393,39 @@
                         "y": 512
                     }
                 ]
+            },
+            {
+                "name": "Meat Realm",
+                "sections": [
+                    {
+                        "name": "Chests",
+                        "item_count": 20,
+                        "visibility_rules": [
+                            "$on_path|3"
+                        ],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Pedestals",
+                        "item_count": 20,
+                        "visibility_rules": [
+                            "$on_path|3"
+                        ],
+                        "clear_as_group": false
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 4000,
+                        "y": 2048
+                    },
+                    {
+                        "map": "map2",
+                        "x": 1050,
+                        "y": 690
+                    }
+                ]
             }
         ]
     },
@@ -850,6 +883,69 @@
                         "map": "map2",
                         "x": 1022,
                         "y": 562
+                    }
+                ]
+            },
+            {
+                "name": "Tapion vasalli",
+                "sections": [
+                    {
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 4000,
+                        "y": 2264
+                    },
+                    {
+                        "map": "map2",
+                        "x": 91,
+                        "y": 198
+                    }
+                ]
+            },
+                        {
+                "name": "Kivi",
+                "sections": [
+                    {
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 4000,
+                        "y": 2264
+                    },
+                    {
+                        "map": "map2",
+                        "x": 798,
+                        "y": 40
+                    }
+                ]
+            },
+                        {
+                "name": "Kolmisilmän sydän",
+                "sections": [
+                    {
+                        "name": "Boss Defeated",
+                        "visibility_rules": ["$in_boss_set|3"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 4000,
+                        "y": 2264
+                    },
+                    {
+                        "map": "map2",
+                        "x": 783,
+                        "y": 477
                     }
                 ]
             },
