@@ -46,6 +46,7 @@ function set_chest_count(value)
     Tracker:FindObjectForCode("@Biome Checks/The Tower/Chests").AvailableChestCount = value
     Tracker:FindObjectForCode("@Biome Checks/Wizard's Den/Chests").AvailableChestCount = value
     Tracker:FindObjectForCode("@Biome Checks/Power Plant/Chests").AvailableChestCount = value
+    Tracker:FindObjectForCode("@Biome Checks/Meat Realm/Chests").AvailableChestCount = value
 end
 
 
@@ -64,5 +65,6 @@ function set_pedestal_count(value)
     Tracker:FindObjectForCode("@Biome Checks/The Tower/Pedestals").AvailableChestCount = value
     Tracker:FindObjectForCode("@Biome Checks/Wizard's Den/Pedestals").AvailableChestCount = value
     Tracker:FindObjectForCode("@Biome Checks/Power Plant/Pedestals").AvailableChestCount = value
+    Tracker:FindObjectForCode("@Biome Checks/Meat Realm/Pedestals").AvailableChestCount = value
 end
 
