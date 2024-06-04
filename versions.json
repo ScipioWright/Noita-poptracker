@@ -3,7 +3,7 @@
         {
             "package_version": "1.2.1",
             "download_url": "https://github.com/ScipioWright/Noita-poptracker/releases/download/1.2.1/Noita-poptracker.zip",
-            "sha256": "f7d010a82aada105c49f0a2706b6a52b6a0a3f888f99c6c3a42eb896c693b461",
+            "sha256": "1b209dbca311b8700a6a533e73de5650c1242b28d2aa8e554e12f03fd44e6c19",
             "changelog": [
                 "fix meat realm chest and pedestal counts",
                 "actually make versions.json so that it can auto-update"
