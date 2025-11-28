@@ -2,32 +2,19 @@
 
 -- 1 == main path, 2 == side path, 3 == main world
 function on_path(path_value)
-    if tonumber(path_value) <= tonumber(chosen_path) then
-        return true
-    else
-        return false
-    end
+    return tonumber(path_value) <= tonumber(chosen_path)
 end
 
 
 -- 0 == no orbs, 1 == main path, 2 == side path, 3 == main world
 function in_orb_set(orb_value)
-    if tonumber(orb_value) <= tonumber(orb_path) then
-        return true
-    else
-        return false
-    end
+    return tonumber(orb_value) <= tonumber(orb_path)
 end
 
 
 -- 0 == no bosses, 1 == main path, 2 == side path, 3 == main world
 function in_boss_set(boss_value)
-    if tonumber(boss_value) <= tonumber(boss_path) then
-        return true
-    else
-        print("false")
-        return false
-    end
+    return tonumber(boss_value) <= tonumber(boss_path)
 end
 
 
