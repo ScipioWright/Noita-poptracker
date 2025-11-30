@@ -57,6 +57,10 @@ function onClear(slot_data)
             boss_path = value
         end
     end
+
+    Archipelago:SetNotify({"Noita_position_" .. Archipelago.PlayerNumber})
+    Archipelago:Get({"Noita_position_" .. Archipelago.PlayerNumber})
+
     local refresh = Tracker:FindObjectForCode("Refresh")
     refresh.Active = not refresh.Active
 end
@@ -86,27 +90,37 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a locations is scouted
-function onScout(location_id, location_name, item_id, item_name, item_player)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
+
+function retrieved(key, value)
+    if key == "Noita_position_" .. Archipelago.PlayerNumber then
+        print(key)
+        print(value)
+        if value == nil then return end
+        player_x = value["x"]
+        player_y = value["y"]
+        print(player_x)
+        print(player_y)
+        local refresh = Tracker:FindObjectForCode("Refresh")
+        refresh.Active = not refresh.Active
     end
-    -- not implemented yet :(
 end
 
--- called when a bounce message is received 
-function onBounce(json)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
+
+function onSetReply(key, value, _)
+    if key == "Noita_position_" .. Archipelago.PlayerNumber then
+        player_x = value["x"]
+        player_y = value["y"]
+        print(player_x)
+        print(player_y)
+        local refresh = Tracker:FindObjectForCode("Refresh")
+        refresh.Active = not refresh.Active
     end
-    -- your code goes here
 end
+
 
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
---Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddRetrievedHandler("retrieved", retrieved)
+Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
