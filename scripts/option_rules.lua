@@ -79,8 +79,8 @@ end
 --full_string += "]}]"
 --logger.warning(full_string)
 
-player_x = 0
-player_y = 0
+player_x = 200
+player_y = 200
 
 function player_position(x_value, y_value)
     return player_x == tonumber(x_value) and player_y == tonumber(y_value)
