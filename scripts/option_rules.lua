@@ -55,3 +55,33 @@ function set_pedestal_count(value)
     Tracker:FindObjectForCode("@Biome Checks/Meat Realm/Pedestals").AvailableChestCount = value
 end
 
+-- in-game map is 70x48
+-- 0, 0 is the lower left corner of the gray square at the start
+-- +y is down, +x is right
+
+-- python for doing this:
+--x = -35
+--full_string = ""
+--map_x_ratio = .27
+--map_y_ratio = .27
+--for _ in range(70):
+--    y = -14
+--    for _ in range(48):
+--        full_string += (f"{{\"name\": \"You - {x}, {y}\", \"visibility_rules\": [\"$player_position|{x}|{y}\"], "
+--                        f"\"access_rules\": [], \"sections\": [{{\"name\": \"{x},{y}\"}}], "
+--                        f"\"map_locations\": ["
+--                        f"{{\"map\": \"map1\", \"x\": {(x + 34) * 64 + 96}, \"y\": {(y + 14) * 64 + 32}, \"shape\": \"diamond\"}}, "
+--                        f"{{\"map\": \"map2\", \"x\": {int(map_x_ratio * ((x + 34) * 64 + 96)) - 56}, \"y\": {int(map_y_ratio * ((y + 14) * 64 + 32)) - 49}, \"shape\": \"diamond\"}}"
+--                        f"]}},")
+--        y += 1
+--    x += 1
+--full_string = full_string[:-1]
+--full_string += "]}]"
+--logger.warning(full_string)
+
+player_x = 0
+player_y = 0
+
+function player_position(x_value, y_value)
+    return player_x == tonumber(x_value) and player_y == tonumber(y_value)
+end
